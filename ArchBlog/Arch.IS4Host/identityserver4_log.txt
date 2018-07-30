@@ -1,0 +1,81 @@
+2018-07-30 09:45:21.237 +02:00 [FTL] Application startup exception
+System.InvalidOperationException: Decorator already registered for type: IUserClaimsPrincipalFactory`1.
+   at Microsoft.Extensions.DependencyInjection.IdentityServerBuilderExtensions.AddDecorator[TService](IServiceCollection services) in C:\local\identity\server4\AspNetIdentity\src\IdentityServer4.AspNetIdentity\IdentityServerBuilderExtensions.cs:line 74
+   at Microsoft.Extensions.DependencyInjection.IdentityServerBuilderExtensions.AddTransientDecorator[TService,TImplementation](IServiceCollection services) in C:\local\identity\server4\AspNetIdentity\src\IdentityServer4.AspNetIdentity\IdentityServerBuilderExtensions.cs:line 62
+   at Microsoft.Extensions.DependencyInjection.IdentityServerBuilderExtensions.AddAspNetIdentity[TUser](IIdentityServerBuilder builder) in C:\local\identity\server4\AspNetIdentity\src\IdentityServer4.AspNetIdentity\IdentityServerBuilderExtensions.cs:line 33
+   at Arch.IS4Host.Startup.ConfigureServices(IServiceCollection services) in /home/oliver/Dokumente/SE/fullStackWebApp/ArchBlog/Arch.IS4Host/Startup.cs:line 54
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Hosting.ConventionBasedStartup.ConfigureServices(IServiceCollection services)
+   at Microsoft.AspNetCore.Hosting.Internal.WebHost.EnsureApplicationServices()
+   at Microsoft.AspNetCore.Hosting.Internal.WebHost.BuildApplication()
+2018-07-30 09:48:12.820 +02:00 [FTL] Application startup exception
+System.InvalidOperationException: Decorator already registered for type: IUserClaimsPrincipalFactory`1.
+   at Microsoft.Extensions.DependencyInjection.IdentityServerBuilderExtensions.AddDecorator[TService](IServiceCollection services) in C:\local\identity\server4\AspNetIdentity\src\IdentityServer4.AspNetIdentity\IdentityServerBuilderExtensions.cs:line 74
+   at Microsoft.Extensions.DependencyInjection.IdentityServerBuilderExtensions.AddTransientDecorator[TService,TImplementation](IServiceCollection services) in C:\local\identity\server4\AspNetIdentity\src\IdentityServer4.AspNetIdentity\IdentityServerBuilderExtensions.cs:line 62
+   at Microsoft.Extensions.DependencyInjection.IdentityServerBuilderExtensions.AddAspNetIdentity[TUser](IIdentityServerBuilder builder) in C:\local\identity\server4\AspNetIdentity\src\IdentityServer4.AspNetIdentity\IdentityServerBuilderExtensions.cs:line 33
+   at Arch.IS4Host.Startup.ConfigureServices(IServiceCollection services) in /home/oliver/Dokumente/SE/fullStackWebApp/ArchBlog/Arch.IS4Host/Startup.cs:line 54
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Hosting.ConventionBasedStartup.ConfigureServices(IServiceCollection services)
+   at Microsoft.AspNetCore.Hosting.Internal.WebHost.EnsureApplicationServices()
+   at Microsoft.AspNetCore.Hosting.Internal.WebHost.BuildApplication()
+2018-07-30 09:51:21.082 +02:00 [DBG] Using Identity.Application as default scheme for authentication
+2018-07-30 09:51:21.131 +02:00 [DBG] Using Identity.External as default scheme for sign-in
+2018-07-30 09:51:21.131 +02:00 [DBG] Using Identity.External as default scheme for sign-out
+2018-07-30 09:51:21.132 +02:00 [DBG] Using Identity.Application as default scheme for challenge
+2018-07-30 09:51:21.133 +02:00 [DBG] Using Identity.Application as default scheme for forbid
+2018-07-30 09:56:14.913 +02:00 [DBG] Using Identity.Application as default scheme for authentication
+2018-07-30 09:56:14.983 +02:00 [DBG] Using Identity.External as default scheme for sign-in
+2018-07-30 09:56:14.983 +02:00 [DBG] Using Identity.External as default scheme for sign-out
+2018-07-30 09:56:14.983 +02:00 [DBG] Using Identity.Application as default scheme for challenge
+2018-07-30 09:56:14.984 +02:00 [DBG] Using Identity.Application as default scheme for forbid
+2018-07-30 09:59:04.195 +02:00 [DBG] Using Identity.Application as default scheme for authentication
+2018-07-30 09:59:04.240 +02:00 [DBG] Using Identity.External as default scheme for sign-in
+2018-07-30 09:59:04.241 +02:00 [DBG] Using Identity.External as default scheme for sign-out
+2018-07-30 09:59:04.241 +02:00 [DBG] Using Identity.Application as default scheme for challenge
+2018-07-30 09:59:04.241 +02:00 [DBG] Using Identity.Application as default scheme for forbid
+2018-07-30 10:01:46.512 +02:00 [DBG] Using Identity.Application as default scheme for authentication
+2018-07-30 10:01:46.557 +02:00 [DBG] Using Identity.External as default scheme for sign-in
+2018-07-30 10:01:46.558 +02:00 [DBG] Using Identity.External as default scheme for sign-out
+2018-07-30 10:01:46.558 +02:00 [DBG] Using Identity.Application as default scheme for challenge
+2018-07-30 10:01:46.559 +02:00 [DBG] Using Identity.Application as default scheme for forbid
+2018-07-30 10:03:46.172 +02:00 [DBG] Using Identity.Application as default scheme for authentication
+2018-07-30 10:03:46.223 +02:00 [DBG] Using Identity.External as default scheme for sign-in
+2018-07-30 10:03:46.223 +02:00 [DBG] Using Identity.External as default scheme for sign-out
+2018-07-30 10:03:46.224 +02:00 [DBG] Using Identity.Application as default scheme for challenge
+2018-07-30 10:03:46.224 +02:00 [DBG] Using Identity.Application as default scheme for forbid
+2018-07-30 10:05:18.616 +02:00 [DBG] Using Identity.Application as default scheme for authentication
+2018-07-30 10:05:18.679 +02:00 [DBG] Using Identity.External as default scheme for sign-in
+2018-07-30 10:05:18.680 +02:00 [DBG] Using Identity.External as default scheme for sign-out
+2018-07-30 10:05:18.680 +02:00 [DBG] Using Identity.Application as default scheme for challenge
+2018-07-30 10:05:18.681 +02:00 [DBG] Using Identity.Application as default scheme for forbid
+2018-07-30 11:08:29.409 +02:00 [DBG] Using Identity.Application as default scheme for authentication
+2018-07-30 11:08:29.475 +02:00 [DBG] Using Identity.External as default scheme for sign-in
+2018-07-30 11:08:29.476 +02:00 [DBG] Using Identity.External as default scheme for sign-out
+2018-07-30 11:08:29.476 +02:00 [DBG] Using Identity.Application as default scheme for challenge
+2018-07-30 11:08:29.477 +02:00 [DBG] Using Identity.Application as default scheme for forbid
+2018-07-30 12:18:47.172 +02:00 [DBG] Using Identity.Application as default scheme for authentication
+2018-07-30 12:18:47.235 +02:00 [DBG] Using Identity.External as default scheme for sign-in
+2018-07-30 12:18:47.236 +02:00 [DBG] Using Identity.External as default scheme for sign-out
+2018-07-30 12:18:47.236 +02:00 [DBG] Using Identity.Application as default scheme for challenge
+2018-07-30 12:18:47.236 +02:00 [DBG] Using Identity.Application as default scheme for forbid
+2018-07-30 12:20:18.337 +02:00 [DBG] Request path /.well-known/openid-configuration matched to endpoint type Discovery
+2018-07-30 12:20:18.442 +02:00 [DBG] Endpoint enabled: Discovery, successfully created handler: IdentityServer4.Endpoints.DiscoveryEndpoint
+2018-07-30 12:20:18.443 +02:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.DiscoveryEndpoint for /.well-known/openid-configuration
+2018-07-30 12:20:18.450 +02:00 [DBG] Start discovery request
+2018-07-30 12:20:19.287 +02:00 [DBG] Found ["openid","profile","api1"] as all scopes in database
+2018-07-30 12:21:31.436 +02:00 [INF] AuthenticationScheme: Identity.Application was challenged.
+2018-07-30 12:22:20.408 +02:00 [DBG] Augmenting SignInContext
+2018-07-30 12:22:20.413 +02:00 [DBG] Adding idp claim with value: local
+2018-07-30 12:22:20.414 +02:00 [DBG] Adding amr claim with value: pwd
+2018-07-30 12:22:20.414 +02:00 [DBG] Adding auth_time claim with value: 1532946140
+2018-07-30 12:22:20.485 +02:00 [INF] AuthenticationScheme: Identity.Application signed in.
+2018-07-30 12:22:20.578 +02:00 [INF] AuthenticationScheme: Identity.Application was successfully authenticated.
+2018-07-30 12:22:20.581 +02:00 [INF] AuthenticationScheme: Identity.Application was successfully authenticated.
+2018-07-30 12:22:20.622 +02:00 [DBG] 0 persisted grants found for eb9961e7-5818-4e8a-9e51-d6bd8bd07230
+2018-07-30 12:23:26.006 +02:00 [INF] AuthenticationScheme: Identity.Application was successfully authenticated.
+2018-07-30 12:23:26.019 +02:00 [INF] AuthenticationScheme: Identity.Application was successfully authenticated.
+2018-07-30 12:23:29.840 +02:00 [INF] AuthenticationScheme: Identity.Application was successfully authenticated.
+2018-07-30 12:23:29.854 +02:00 [INF] AuthenticationScheme: Identity.Application was successfully authenticated.
+2018-07-30 12:23:29.899 +02:00 [INF] AuthenticationScheme: Identity.Application signed out.
+2018-07-30 12:23:29.901 +02:00 [INF] AuthenticationScheme: Identity.External signed out.
+2018-07-30 12:23:29.901 +02:00 [INF] AuthenticationScheme: Identity.TwoFactorUserId signed out.
